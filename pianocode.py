@@ -115,24 +115,3 @@ def start_listening():
         print("Warning", "Please enter a MIDI device name.")
 
 start_listening()
-
-# # Create the Tkinter GUI
-# root = tk.Tk()
-# root.title("MIDI Keyboard Mapper")
-
-# # Set the window size
-# root.geometry("400x133")  # Adjust width and height as needed
-# root.configure(bg="lightgray")  # Set background color to light gray
-
-# # Add labels and entry for MIDI device name
-# midi_device_label = tk.Label(root, text="MIDI Device Name:")
-# midi_device_label.grid(row=0, column=0)
-# midi_device_entry = tk.Entry(root)
-# midi_device_entry.grid(row=0, column=1)
-
-# # Add button to start listening for MIDI input
-# start_button = tk.Button(root, text="Start Listening", command=start_listening)
-# start_button.grid(row=1, column=0, columnspan=2)
-
-# # Start the Tkinter event loop
-# root.mainloop()
